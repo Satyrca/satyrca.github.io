@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptando</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  
+  <body>
+    <header>
+      <center>
+        <img class="logo" src="https://play-lh.googleusercontent.com/IDLZXWHLCVun428g_YGnR2HgnoIUlIRNfkmEEM0hmrzhBKZrhJ5UwM0_eHaWQT4gXAs" alt="logo de Alura">
+      </center>
+    </header>
+    
+    <main class="container">
+      <div class="div1">
+        <center>
+          <label class="textoIngresado" for="texto">Escriba su texto</label>
+        </center>
+        <br>
+        <textarea class="texto1" id="texto" ></textarea>
+        <br>
+        <center>
+        <button class="boton" id="encriptar/desencriptar" onclick="encriptar();">Encriptar/Desencriptar</button>
+        </center>
+      </div>
+      <div class="div2">
+        <center>
+          <label class="textoResultante" for="resultado">Texto resultante</label>
+        </center>
+        <br>
+        <textarea class="texto2" id="resultado" readonly="readonly"></textarea>
+      </div>
+    </main>
+    
+  </body>
+
+</html>

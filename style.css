@@ -1,0 +1,29 @@
+*{padding: 0; margin: 0; box-sizing: border-box}
+html{background-color: lightblue; font-family: verdana}
+
+/*ESTE ES EL HEADER*/
+header{margin-top: 2%; margin-bottom: 2%}
+.logo{width: 100px; height: 100px}
+
+
+/*ESTE ES EL MAIN*/
+.container{display: flex; justify-content: center}
+
+.div1, .div2{display: inline-block; margin: 10px auto}
+
+.texto1, .texto2{border: 3px solid blue; margin: 5px; 
+background-color: turquoise; padding: 15px; font-family: verdana; 
+border-radius: 25px; width: 300px; height: 300px}
+
+.textoIngresado, .textoResultante{color: darkblue; 
+font-weight: bold; font-family: verdana}
+
+.boton{padding: 5px; border-radius: 10px; font-family: verdana;
+color: white; background-color: darkblue}
+
+/*ESTA ES LA DISPOSICIÓN DE LA PANTALLA PARA UN WIDTH NO SUPERIOR A 780px*/
+@media (max-width: 720px)
+{
+  .container{place-items: center; display: flex; 
+  justify-content: center; flex-direction: column}
+}
