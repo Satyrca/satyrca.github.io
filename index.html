@@ -1,42 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaider Fabra Vargas | Desarrollador de Software</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">JFV</a>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca de Mi</a></li>
+                <li><a href="#portfolio">Proyectos</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Encriptando</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="script.js"></script>
-  </head>
-  
-  <body>
-    <header>
-      <center>
-        <img class="logo" src="https://play-lh.googleusercontent.com/IDLZXWHLCVun428g_YGnR2HgnoIUlIRNfkmEEM0hmrzhBKZrhJ5UwM0_eHaWQT4gXAs" alt="logo de Alura">
-      </center>
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Jaider Fabra Vargas</h1>
+            <p>Desarrollador de Software apasionado por crear soluciones tecnológicas eficientes e innovadoras que impulsan el crecimiento empresarial.</p>
+            <div class="social-links">
+                <a href="https://github.com/Satyrca" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://itch.io/" target="_blank"><i class="fas fa-gamepad"></i> Itch.io</a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
     </header>
-    
-    <main class="container">
-      <div class="div1">
-        <center>
-          <label class="textoIngresado" for="texto">Escriba su texto</label>
-        </center>
-        <br>
-        <textarea class="texto1" id="texto" ></textarea>
-        <br>
-        <center>
-        <button class="boton" id="encriptar/desencriptar" onclick="encriptar();">Encriptar/Desencriptar</button>
-        </center>
-      </div>
-      <div class="div2">
-        <center>
-          <label class="textoResultante" for="resultado">Texto resultante</label>
-        </center>
-        <br>
-        <textarea class="texto2" id="resultado" readonly="readonly"></textarea>
-      </div>
-    </main>
-    
-  </body>
 
+    <section id="about">
+        <div class="container">
+            <h2>Acerca de Mi</h2>
+            <div class="about-flex">
+                <div class="about-text">
+                    <p>Soy estudiante del SENA en Desarrollo de Software, con una trayectoria enfocada en el aprendizaje continuo y la resolución de problemas complejos a través del código. Mi crecimiento como desarrollador ha sido impulsado por mi curiosidad natural y mi compromiso con la excelencia técnica.</p>
+                    <p>Busco oportunidades donde pueda aplicar mis conocimientos en análisis de datos, desarrollo backend y frontend para construir aplicaciones que marquen la diferencia. Me motiva la posibilidad de colaborar en proyectos que desafíen mis habilidades y me permitan seguir creciendo profesionalmente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Mi Portafolio</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250?text=Data+Science+Project" alt="Data Science Project">
+                    <div class="project-info">
+                        <h3>Análisis Predictivo de Evasión (LATAM)</h3>
+                        <p><strong>Mecánicas/Lógica:</strong> Procesamiento de datos y modelos predictivos para reducir la evasión.</p>
+                        <p><strong>Lenguaje:</strong> Python (Jupyter Notebooks)</p>
+                        <p><strong>Reto:</strong> Manejo de grandes volúmenes de datos y optimización de precisión en modelos.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Satyrca/challenge2-data-science-LATAM-main_parte_II" target="_blank">Ver Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250?text=CRUD+Project" alt="CRUD Project">
+                    <div class="project-info">
+                        <h3>Gestión de Pacientes Clínica</h3>
+                        <p><strong>Funcionalidad:</strong> CRUD completo para administración de pacientes en clínicas colombianas.</p>
+                        <p><strong>Lenguaje:</strong> JavaScript, HTML, CSS</p>
+                        <p><strong>Reto:</strong> Implementación de una interfaz intuitiva y persistencia de datos segura.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Satyrca/CRUD-de-pacientes" target="_blank">Ver Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250?text=Secret+Friend+Game" alt="Secret Friend Game">
+                    <div class="project-info">
+                        <h3>Amigo Secreto (Reto Oracle One)</h3>
+                        <p><strong>Mecánicas:</strong> Sistema de sorteo aleatorio de nombres para eventos sociales.</p>
+                        <p><strong>Lenguaje:</strong> JavaScript, CSS</p>
+                        <p><strong>Reto:</strong> Lógica de aleatoriedad sin repeticiones y validación de entradas.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Satyrca/challenge-amigo-secreto_esp-main" target="_blank">Ver Código</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cv">
+        <div class="container">
+            <h2>Currículum Vitae</h2>
+            <div class="cv-content">
+                <div class="education">
+                    <h3>Formación Académica</h3>
+                    <ul>
+                        <li><strong>Análisis y Desarrollo de Software</strong> - SENA (En curso)</li>
+                        <li><strong>Especialización en Machine Learning/C</strong> - Holberton School</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>Habilidades Técnicas</h3>
+                    <p>JavaScript, Python, C, Java, TypeScript, SQL, Git, Análisis de Datos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Interesado en trabajar conmigo? ¡Hablemos!</p>
+            <p>Email: <a href="mailto:jaiderfabrav@gmail.com">jaiderfabrav@gmail.com</a></p>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jaider Fabra Vargas. Última actualización: Marzo 2026.</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
